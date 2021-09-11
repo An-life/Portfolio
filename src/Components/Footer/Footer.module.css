@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fffec0;
+    width: 100%;
+
+}
+
+.footer {
+    background-color: #f7f552;
+}
+
+.title {
+    max-width: 300px;
+    background-color: #b6e163;
+    text-align: center;
+}
+
+.text {
+    max-width: 300px;
+    background-color: #ffdf5f;
+    text-align: center;
+}
+
+.link {
+    height: 50px;
+    width: 50px;
+    background-color: #94b352;
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

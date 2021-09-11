@@ -1,0 +1,11 @@
+.myWork {
+background-color: #f1b340;
+}
+.preview{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

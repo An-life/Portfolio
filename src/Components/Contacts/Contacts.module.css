@@ -1,0 +1,27 @@
+.contacts{
+    background-color: #9fc164;
+}
+.form{
+    min-height: 100px;
+    background-color: #fffec0;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+}
+.title{
+    max-width: 300px;
+    background-color: #fffec0;
+}
+.input{
+    color: white;
+    width: 270px;
+}

@@ -1,0 +1,16 @@
+.mainInf {
+    height: 100vh;
+    background-color: #fffec0;
+}
+
+.textInf {
+    width: 300px;
+    background-color: #ffdf5f;
+}
+
+.photoInf {
+    width: 300px;
+    height: 400px;
+    background-color: #f7f552;
+}
+

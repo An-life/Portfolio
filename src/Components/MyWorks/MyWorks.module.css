@@ -1,0 +1,22 @@
+.myWorks{
+    background-color: #deffa5;
+}
+.title{
+    background-color: #ffdf5f;
+    max-width: 300px;
+}
+.worksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
