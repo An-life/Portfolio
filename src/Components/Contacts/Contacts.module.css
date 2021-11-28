@@ -16,12 +16,11 @@
     justify-content: space-between;
     align-items: center;
     min-height: 50vh;
+    background-color: #FF0000;
 }
 .title{
     max-width: 300px;
-    background-color: #fffec0;
 }
 .input{
-
     width: 270px;
 }
