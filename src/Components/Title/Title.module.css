@@ -1,0 +1,21 @@
+.title {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: #297ca0;
+    text-transform: uppercase;
+    margin: 30px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    background: #297ca0;
+    width: 80px;
+    height: 2px;
+    bottom: -15px;
+    left:50% ;
+    transform: translate(-50%,50%);
+}
+

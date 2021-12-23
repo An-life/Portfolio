@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
 import style from './Footer.module.css';
-import styleContainer from "../../Common/Styles/Container.module.css";
+import styleContainer from '../../Common/Styles/Container.module.css';
 import gitHub from './../../Assets/Icons/github_git_icon_145985.svg';
 import linkedin from './../../Assets/Icons/linkedin.svg';
-import codewars from './../../Assets/Icons/codewars.svg'
+import codewars from './../../Assets/Icons/codewars.svg';
+import telegram from './../../Assets/Icons/telegram.svg';
+
+
 
 
 export const Footer = () => {
@@ -19,6 +22,9 @@ export const Footer = () => {
                            className={style.link}><img src={linkedin} alt={'icon'} width={40}/></a>
                         <a href={'https://www.codewars.com/users/An-life'} className={style.link}>
                             <img src={codewars} alt={'icon'} width={40}/>
+                        </a>
+                        <a href={'https://github.com/An-life'} className={style.link}><img src={telegram} alt={'icon'}
+                                                                                           width={40}/>
                         </a>
                     </div>
                     <p className={style.text}>©2021</p>

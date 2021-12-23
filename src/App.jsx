@@ -5,9 +5,9 @@ import {MainInformation} from "./Components/MainInformation/MainInformation";
 import {Skills} from "./Components/Skills/Skills";
 import {Footer} from "./Components/Footer/Footer";
 import {Contacts} from "./Components/Contacts/Contacts";
-import {Freelance} from "./Components/Freelans/Freelance";
 import {MyWorks} from "./Components/MyWorks/MyWorks";
 import style from './App.module.css'
+import {Menu} from "./Components/Menu/Menu";
 
 
 function App() {
@@ -16,10 +16,12 @@ function App() {
             <div className={style.header}>
             <Header/>
             </div>
+            <div className={style.menu}>
+                <Menu/>
+            </div>
             <MainInformation/>
             <Skills/>
             <MyWorks/>
-            <Freelance/>
             <Contacts/>
             <Footer/>
         </div>

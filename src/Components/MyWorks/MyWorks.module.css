@@ -1,5 +1,6 @@
 .myWorks{
-    background-color: #deffa5;
+    background-color:white;
+    margin-bottom: 40px;
 }
 .title{
     background-color: #ffdf5f;
@@ -19,4 +20,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .links{
+        justify-content: center;
+    }
 }

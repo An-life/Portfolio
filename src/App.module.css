@@ -2,8 +2,10 @@
     background-color: #000000;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 @media (max-width: 740px) {
     .header{ visibility: hidden;}
 }
+
 

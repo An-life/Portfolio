@@ -1,11 +1,68 @@
-.myWork {
-background-color: #f1b340;
+.container{
+
 }
 .preview{
-    width: 200px;
-    height: 200px;
-    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    margin: 30px 40px;
+    width: 450px;
+    height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 10px 20px 40px 0px rgba(0,0,0,0.75);
+}
+@media (max-width: 496px) {
+    .preview{
+        width: 300px;
+        height: 200px;
+    }
+}
+.title{
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+.text{
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.preview::before{
+    position: absolute;
+    content: '';
+    background-color: black;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+.link{
+    padding:5px 15px ;
+    background-color:#297ca0 ;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color:white ;
+    color: #297ca0;
+    position: relative;
+    z-index: 1;
+}
+.linkContainer{
+    margin: 15px;
 }
