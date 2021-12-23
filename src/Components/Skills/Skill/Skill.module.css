@@ -1,22 +1,23 @@
 .skill {
-    width: 250px;
-    background-color: #deba21;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 10px 20px 40px 0px darkgray;
+    margin-bottom: 40px;
 }
 
 .icon {
-    height: 60px;
-    background-color: #deffa5;
-    width: 60px;
+    padding: 20px;
+    width: 120px;
 }
-
+.skill:hover {
+    background-color: darkgray;
+}
 .decription {
     text-align: center;
-    background-color: #b6e163;
 }
 .img{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    padding: 20px;
+
 }
