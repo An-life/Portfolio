@@ -1,0 +1,27 @@
+@import './../../Common/Styles/SASS/mixins';
+
+.myWorks {
+  background-color: white;
+  margin-bottom: 40px;
+
+  .worksContainer {
+    @include flex(center, flex-start, wrap);
+    flex-direction: column;
+    width: 100%;
+
+    .links {
+      @include flex(center, space-between, wrap);
+      flex-direction: row;
+      width: 100%;
+      @media (max-width: 1024px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+@import './../../Common/Styles/SASS/variables';
+@import './../../Common/Styles/SASS/mixins';
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  .link {
+    color: $bgColor;
+    @include font(1.5rem,center);
+    padding: 10px 40px;
+    text-decoration: none;
+    opacity: 0.7;
+
+    &:hover {
+      text-decoration: none;
+      color: #93d9ea;
+      opacity: 1;
+    }
+  }
+}

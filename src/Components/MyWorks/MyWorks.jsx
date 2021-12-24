@@ -1,13 +1,12 @@
-import React from "react";
-import style from './MyWorks.module.css';
-import styleContainer from "../../Common/Styles/Container.module.css";
-import {MyWork} from "./MyWork/MyWork";
-import {Title} from "../Title/Title";
-import todolist from "./../../Assets/img/todolist.jpg"
-import counter from "./../../Assets/img/counter.jpg"
-import social from "./../../Assets/img/network.jpg"
-import slider from "./../../Assets/img/slider.jpg"
-
+import React from 'react';
+import style from './MyWorks.module.scss';
+import styleContainer from '../../Common/Styles/Container.module.scss';
+import {MyWork} from './MyWork/MyWork';
+import {Title} from '../Title/Title';
+import todolist from './../../Assets/img/todolist.jpg';
+import counter from './../../Assets/img/counter.jpg';
+import social from './../../Assets/img/network.jpg';
+import slider from './../../Assets/img/slider.jpg';
 
 export const MyWorks = () => {
     const todoStyle = {
@@ -46,7 +45,6 @@ export const MyWorks = () => {
                                 codeLink={'https://github.com/An-life/Network'}
                                 demoLink={'https://an-life.github.io/Network/'}/>
                     </div>
-
                 </div>
             </div>
         </div>

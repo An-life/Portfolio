@@ -1,8 +1,8 @@
-import React from "react";
-import style from './Contacts.module.css';
-import styleContainer from "../../Common/Styles/Container.module.css";
-import {Title} from "../Title/Title";
-import TextField from "@mui/material/TextField";
+import React from 'react';
+import style from './Contacts.module.scss';
+import styleContainer from '../../Common/Styles/Container.module.scss';
+import {Title} from '../Title/Title';
+import TextField from '@mui/material/TextField';
 
 export const Contacts = () => {
     return (
@@ -14,7 +14,6 @@ export const Contacts = () => {
                 <TextField id="standard-basic" label="Your email" variant="standard" />
                 <TextField id="standard-basic" label="Your message" variant="standard" />
             </form>
-
             <button type={'submit'} className={style.button}>Send</button>
             </div>
 

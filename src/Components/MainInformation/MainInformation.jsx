@@ -1,7 +1,5 @@
-import React from "react";
-import style from './MainInformation.module.css';
-import avatar from './../../Assets/img/avatar.jpg'
-
+import React from 'react';
+import style from './MainInformation.module.scss';
 
 export const MainInformation = () => {
     return (

@@ -1,23 +1,21 @@
-import './App.module.css';
-import React from "react";
-import {Header} from "./Components/Header/Header";
-import {MainInformation} from "./Components/MainInformation/MainInformation";
-import {Skills} from "./Components/Skills/Skills";
-import {Footer} from "./Components/Footer/Footer";
-import {Contacts} from "./Components/Contacts/Contacts";
-import {MyWorks} from "./Components/MyWorks/MyWorks";
-import style from './App.module.css'
-import {Menu} from "./Components/Menu/Menu";
-import {AboutMe} from "./Components/AboutMe/AboutMe";
-
+import './App.module.scss';
+import React from 'react';
+import {Header} from './Components/Header/Header';
+import {MainInformation} from './Components/MainInformation/MainInformation';
+import {Skills} from './Components/Skills/Skills';
+import {Footer} from './Components/Footer/Footer';
+import {Contacts} from './Components/Contacts/Contacts';
+import {MyWorks} from './Components/MyWorks/MyWorks';
+import {Menu} from './Components/Menu/Menu';
+import {AboutMe} from './Components/AboutMe/AboutMe';
 
 function App() {
     return (
         <div className="App">
-            <div className={style.header}>
-            <Header/>
+            <div>
+                <Header/>
             </div>
-            <div className={style.menu}>
+            <div >
                 <Menu/>
             </div>
             <MainInformation/>

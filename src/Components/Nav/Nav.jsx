@@ -1,4 +1,4 @@
-import style from './Nav.module.css';
+import style from './Nav.module.scss';
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHome} from '@fortawesome/free-solid-svg-icons/faHome';
