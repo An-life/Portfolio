@@ -1,6 +1,5 @@
 
 .skillsContainer {
-
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,6 +12,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+@media(max-width:416px )  {
+    .skills {
+        justify-content: center;
+
+    }
+
 }
 
 .title {
