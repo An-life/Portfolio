@@ -17,10 +17,10 @@ export const AboutMe = () => {
             <div className={style.wrapper}>
                 <div><img src={ava} className={style.myPhoto} alt={'photo'}/></div>
                 <div className={style.containerContact}>
-                    <a href={''} className={style.link}><FontAwesomeIcon icon={faMapMarkerAlt}/> Minsk, Belarus</a>
-                    <a href={''} className={style.link}><FontAwesomeIcon icon={faPhoneAlt}/>+375336778164</a>
-                    <a href={''} className={style.link}><FontAwesomeIcon icon={faEnvelope}/>ablovatskaja@gmail.com</a>
-                    <a href={''} className={style.link}><FontAwesomeIcon icon={faBook}/>English level:B1</a>
+                    <a href={''} className={style.link}><FontAwesomeIcon icon={faMapMarkerAlt}/>  Minsk, Belarus</a>
+                    <a href={''} className={style.link}><FontAwesomeIcon icon={faPhoneAlt}/> +375336778164</a>
+                    <a href={''} className={style.link}><FontAwesomeIcon icon={faEnvelope}/> ablovatskaja@gmail.com</a>
+                    <a href={''} className={style.link}><FontAwesomeIcon icon={faBook}/> English level:B1</a>
 
                 </div>
                 <div></div>

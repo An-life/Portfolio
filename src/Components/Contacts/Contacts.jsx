@@ -15,7 +15,7 @@ export const Contacts = () => {
                 <TextField id="standard-basic" label="Your message" variant="standard" />
             </form>
 
-            <button type={'submit'}>Send</button>
+            <button type={'submit'} className={style.button}>Send</button>
             </div>
 
         </div>

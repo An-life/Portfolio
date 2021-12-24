@@ -23,3 +23,19 @@
 .input{
     width: 270px;
 }
+.button{
+    text-align: center;
+    color: white;
+    padding:5px 15px ;
+    background-color:#297ca0 ;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color:white ;
+    color: #297ca0;
+}
