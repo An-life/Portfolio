@@ -8,6 +8,7 @@ import {Contacts} from "./Components/Contacts/Contacts";
 import {MyWorks} from "./Components/MyWorks/MyWorks";
 import style from './App.module.css'
 import {Menu} from "./Components/Menu/Menu";
+import {AboutMe} from "./Components/AboutMe/AboutMe";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Menu/>
             </div>
             <MainInformation/>
+            <AboutMe/>
             <Skills/>
             <MyWorks/>
             <Contacts/>

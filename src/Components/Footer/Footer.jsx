@@ -23,7 +23,7 @@ export const Footer = () => {
                         <a href={'https://www.codewars.com/users/An-life'} className={style.link}>
                             <img src={codewars} alt={'icon'} width={40}/>
                         </a>
-                        <a href={'https://github.com/An-life'} className={style.link}><img src={telegram} alt={'icon'}
+                        <a href={'https://t.me/anlife123'} className={style.link}><img src={telegram} alt={'icon'}
                                                                                            width={40}/>
                         </a>
                     </div>

@@ -41,7 +41,7 @@
     font-size: 1rem;
     text-align: center;
 }
-.preview::before{
+.preview:hover::before{
     position: absolute;
     content: '';
     background-color: black;

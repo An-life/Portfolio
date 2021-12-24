@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 10px 20px 40px 0px darkgray;
     margin-bottom: 40px;
 }
 
 .icon {
     padding: 20px;
-    width: 120px;
+    width: 130px;
 }
 .skill:hover {
     box-shadow: 10px 20px 40px 0px black;
@@ -19,5 +18,9 @@
 .img{
     width: 80px;
     padding: 20px;
-
+    box-shadow: 10px 20px 40px 0px darkgray;
+    border-radius: 30%;
+}
+.img:hover{
+    background-color: #93d9ea;
 }

@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 10;
 }
-@media (max-width: 740px) {
+@media (max-width: 927px) {
     .header{ visibility: hidden;}
 }
 
