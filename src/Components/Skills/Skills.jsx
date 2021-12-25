@@ -15,12 +15,14 @@ import material from './../../Assets/Icons/material_ui.svg';
 import storybook from './../../Assets/Icons/storybook.svg';
 import sass from './../../Assets/Icons/sass.svg';
 import figma from './../../Assets/Icons/figma.svg';
+import Fade from "react-reveal";
 
 export const Skills = () => {
     return (
         <div>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
+                <Fade bottom>
                 <div className={style.skills}>
                     <Skill title={'JS'} img={js}/>
                     <Skill title={'TS'} img={ts}/>
@@ -34,8 +36,8 @@ export const Skills = () => {
                     <Skill title={'Git'} img={git}/>
                     <Skill title={'Storybook'} img={storybook}/>
                     <Skill title={'Jest'} img={jest}/>
-
                 </div>
+                </Fade>
             </div>
 
         </div>

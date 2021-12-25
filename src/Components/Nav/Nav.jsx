@@ -6,15 +6,18 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import {faFolderOpen} from '@fortawesome/free-solid-svg-icons/faFolderOpen';
 import {faLaptopCode} from '@fortawesome/free-solid-svg-icons/faLaptopCode';
 import {faUser} from '@fortawesome/free-solid-svg-icons';
+import Fade from "react-reveal";
 
 export const Nav = () => {
     return (
         <div className={style.nav}>
-            <a className={style.link} href=''> <FontAwesomeIcon icon={faHome}/> Main</a>
-            <a className={style.link} href=''><FontAwesomeIcon icon={faUser}/> About me</a>
-            <a className={style.link} href=''><FontAwesomeIcon icon={faLaptopCode}/> Skills</a>
-            <a className={style.link} href=''><FontAwesomeIcon icon={faFolderOpen}/> Projects</a>
-            <a className={style.link} href=''><FontAwesomeIcon icon={faEnvelope}/> Contact</a>
+            <Fade top>
+                <a className={style.link} href=''> <FontAwesomeIcon icon={faHome}/> Main</a>
+                <a className={style.link} href=''><FontAwesomeIcon icon={faUser}/> About me</a>
+                <a className={style.link} href=''><FontAwesomeIcon icon={faLaptopCode}/> Skills</a>
+                <a className={style.link} href=''><FontAwesomeIcon icon={faFolderOpen}/> Projects</a>
+                <a className={style.link} href=''><FontAwesomeIcon icon={faEnvelope}/> Contact</a>
+            </Fade>
         </div>
     )
 }

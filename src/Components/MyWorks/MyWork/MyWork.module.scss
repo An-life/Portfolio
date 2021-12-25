@@ -3,9 +3,9 @@
 
 .preview {
   margin: 30px 40px;
-  width: 450px;
-  height: 350px;
-  @include flex(center,center,wrap);
+  width: 400px;
+  height: 300px;
+  @include flex(center, center, wrap);
   flex-direction: column;
   background-size: cover;
   background-position: center;
@@ -24,19 +24,10 @@
     opacity: 0.3;
   }
 
-  @media (max-width: 496px) {
-    .preview {
-      width: 300px;
-      height: 300px;
-    }
-    .link {
-      padding: 2px 10px;
-      font-size: 1rem;
-      border-radius: 5px;
-    }
-    .title {
-      font-size: 1rem;
-    }
+  @media (max-width: 499px) {
+    max-width: 300px;
+    height: 200px;
+    margin:20px 0 ;
   }
 
   .title {
@@ -44,6 +35,9 @@
     position: relative;
     z-index: 1;
     @include font(1.5rem, center);
+    @media (max-width: 499px) {
+      font-size: 1rem;
+    }
   }
 
   .text {
@@ -66,12 +60,18 @@
     @include font(1.2rem, center);
     text-decoration: none;
     border-radius: 5px;
+    @media (max-width: 499px) {
+      padding: 2px 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
 
     &:hover {
-      background-color:$bgColor ;
-      color:$titleColor;
+      background-color: $bgColor;
+      color: $titleColor;
       position: relative;
       z-index: 1;
+      border: 1px solid $titleColor;
     }
   }
 }

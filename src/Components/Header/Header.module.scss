@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   z-index: 10;
+  opacity: 0.8;
   @media (max-width: 927px) {
     visibility: hidden;
   }
