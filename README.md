@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+# Link to deploy:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(https://an-life.github.io/Portfolio/)
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `yarn start`
 
