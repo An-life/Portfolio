@@ -24,15 +24,15 @@ export const BurgerNav = () => {
             <div className={open === true ? style.menu : style.closeButton}>
                 <Fade left>
                     <div onClick={openHandler} className={style.buttonToClose} ><FontAwesomeIcon icon={faTimesCircle} className={style.iconClose}/></div>
-                    <div className={style.linkContainer}><Link
+                    <div className={style.linkContainer} onClick={openHandler}><Link
                         activeClass={style.link}
                         to="main"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={500}
-                    ><FontAwesomeIcon icon={faHome}/> Main</Link></div>
-                    <div className={style.linkContainer}><Link
+                    ><FontAwesomeIcon icon={faHome} /> Main</Link></div>
+                    <div className={style.linkContainer} onClick={openHandler}><Link
                         activeClass={style.link}
                         to="aboutMe"
                         spy={true}
@@ -40,7 +40,7 @@ export const BurgerNav = () => {
                         offset={0}
                         duration={500}
                     ><FontAwesomeIcon icon={faUser}/> About me</Link></div>
-                    <div className={style.linkContainer}><Link
+                    <div className={style.linkContainer} onClick={openHandler}><Link
                         activeClass={style.link}
                         to="skills"
                         spy={true}
@@ -48,7 +48,7 @@ export const BurgerNav = () => {
                         offset={0}
                         duration={500}
                     ><FontAwesomeIcon icon={faLaptopCode}/> Skills</Link></div>
-                    <div className={style.linkContainer}><Link
+                    <div className={style.linkContainer} onClick={openHandler}><Link
                         activeClass={style.link}
                         to="projects"
                         spy={true}
@@ -56,7 +56,7 @@ export const BurgerNav = () => {
                         offset={0}
                         duration={500}
                     ><FontAwesomeIcon icon={faFolderOpen}/> Projects</Link></div>
-                    <div className={style.linkContainer}><Link
+                    <div className={style.linkContainer} onClick={openHandler}><Link
                         activeClass={style.link}
                         to="contacts"
                         spy={true}

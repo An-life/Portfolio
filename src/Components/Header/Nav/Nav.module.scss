@@ -2,7 +2,7 @@
 @import '../../../Common/Styles/SASS/mixins';
 
 .nav {
-  height: 60px;
+  height: 70px;
   @include flex(center, center, wrap);
   background-color: $navBgColor;
   width: 100%;
