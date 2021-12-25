@@ -57,7 +57,7 @@
 
   .text {
     max-width: 900px;
-    margin: 10px;
+    margin: 10px 10px 0px;
     @include flex(center,center,wrap);
   }
 }

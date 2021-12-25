@@ -16,27 +16,28 @@ import storybook from './../../Assets/Icons/storybook.svg';
 import sass from './../../Assets/Icons/sass.svg';
 import figma from './../../Assets/Icons/figma.svg';
 import Fade from "react-reveal";
+import Tilt from "react-tilt";
 
 export const Skills = () => {
     return (
         <div>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}id={'skills'}>
                 <Title title={'Skills'}/>
                 <Fade bottom>
-                <div className={style.skills}>
-                    <Skill title={'JS'} img={js}/>
-                    <Skill title={'TS'} img={ts}/>
-                    <Skill title={'HTML'} img={html}/>
-                    <Skill title={'React'} img={react}/>
-                    <Skill title={'Redux'} img={redux}/>
-                    <Skill title={'CSS'} img={css}/>
-                    <Skill title={'SASS'} img={sass}/>
-                    <Skill title={'Material UI'} img={material}/>
-                    <Skill title={'FIGMA'} img={figma}/>
-                    <Skill title={'Git'} img={git}/>
-                    <Skill title={'Storybook'} img={storybook}/>
-                    <Skill title={'Jest'} img={jest}/>
-                </div>
+                    <div className={style.skills}>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'JS'} img={js}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'TS'} img={ts}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'HTML'} img={html}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'React'} img={react}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'Redux'} img={redux}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'CSS'} img={css}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'SASS'} img={sass}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'Material UI'} img={material}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'FIGMA'} img={figma}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Git'} img={git}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Storybook'} img={storybook}/></Tilt>
+                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Jest'} img={jest}/></Tilt>
+                    </div>
                 </Fade>
             </div>
 

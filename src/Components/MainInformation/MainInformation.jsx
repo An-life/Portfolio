@@ -42,7 +42,7 @@ const particlesOpt = {
 
 export const MainInformation = () => {
     return (
-        <div><Particles className={style.particles} params={particlesOpt}/>
+        <div id={'main'}><Particles className={style.particles} params={particlesOpt}/>
             <div className={style.mainInf}>
                 <div className={style.content}><h1>ANASTASIYA ABLAVATSKAYA</h1></div>
                 <div className={style.content}>

@@ -3,7 +3,6 @@
 .skillsContainer {
   @include flex(center, flex-start, wrap);
   flex-direction: column;
-  margin-bottom: 40px;
 
   .skills {
     margin-top: 40px;

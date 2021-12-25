@@ -13,7 +13,7 @@ import Fade from "react-reveal";
 
 
 export const AboutMe = () => {
-    return (<div className={style.container}>
+    return (<div className={style.container} id={'aboutMe'}>
             <div><Title title={'About me'}/></div>
             <div className={style.wrapper}>
                 <Fade left>
