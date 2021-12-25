@@ -17,6 +17,7 @@ export const Contacts = () => {
             }, (error) => {
                 console.log(error.text);
             });
+        e.currentTarget.reset()
     }
 
     return (
@@ -25,11 +26,11 @@ export const Contacts = () => {
             <Title title={'Contact'}/>
             <Fade bottom>
             <form className={style.form} onSubmit={sendEmail}>
-                <TextField id="standard-basic" label="Your name" variant="standard" />
-                <TextField id="standard-basic" label="Your email" variant="standard" />
-                <TextField id="standard-basic" label="Your message" variant="standard" />
+                <TextField  type='text'  id="from_name"  name='from_name' label="Your name" variant="standard" />
+                <TextField  type='text'  id="email" name='email' label="Your email" variant="standard" />
+                <TextField type='text' id="text" name='message' label="Your message" variant="standard" />
+                <button type={'submit'} className={style.button}>Send</button>
             </form>
-            <button type={'submit'} className={style.button}>Send</button>
             </Fade>
             </div>
         </div>
