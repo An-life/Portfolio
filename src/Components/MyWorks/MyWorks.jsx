@@ -30,11 +30,11 @@ export const MyWorks = () => {
                 <div className={style.worksContainer}>
                     <Title title={'My projects'}/>
                     <div className={style.links}>
-                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'ToDoList'}
+                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Weather forecast'}
                                                                             style={todoStyle}
-                                                                            text={'React/Redux, TS, CSS, Unit Tests, RestAPI, Storybook'}
-                                                                            codeLink={'https://github.com/An-life/ToDoList'}
-                                                                            demoLink={'https://An-life.github.io/ToDoList'}/></Tilt>
+                                                                            text={'React/Redux, TS, SCSS'}
+                                                                            codeLink={'https://github.com/An-life/weather'}
+                                                                            demoLink={'https://warm-profiterole-d2f864.netlify.app/'}/></Tilt>
                         <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Counter'} text={'React, TS, CSS'}
                                                                             style={countStyle}
                                                                             codeLink={'https://github.com/An-life/Counter'}
