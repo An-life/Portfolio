@@ -19,29 +19,30 @@ import Fade from "react-reveal";
 import Tilt from "react-tilt";
 
 export const Skills = () => {
+    const skillItems = [{title:'JS', icon:js},
+    {title:'TS', icon:ts},
+    {title: 'HTML', icon:html},
+    {title: 'React', icon:react}, 
+    {title:'Redux', icon:redux}, 
+    {title:'CSS', icon:css},
+    {title:'SASS', icon:sass},
+    {title:'Material UI', icon:material},
+    {title:'FIGMA' , icon:figma},
+    {title:'Git', icon:git},
+    {title:'Storybook', icon: storybook},
+    {title:'Jest', icon:jest}]
+
     return (
         <div>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}id={'skills'}>
                 <Title title={'Skills'}/>
                 <Fade bottom>
                     <div className={style.skills}>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'JS'} img={js}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'TS'} img={ts}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'HTML'} img={html}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'React'} img={react}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'Redux'} img={redux}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'CSS'} img={css}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'SASS'} img={sass}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'Material UI'} img={material}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}><Skill title={'FIGMA'} img={figma}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Git'} img={git}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Storybook'} img={storybook}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <Skill title={'Jest'} img={jest}/></Tilt>
+                        {skillItems.map(item=><Tilt className="Tilt" options={{max: 25}}><Skill title={item.title} img={item.icon}/></Tilt>)}
+                        
                     </div>
                 </Fade>
             </div>
-
         </div>
     )
-
 }
