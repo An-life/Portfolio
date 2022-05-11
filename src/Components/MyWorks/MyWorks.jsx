@@ -30,24 +30,23 @@ export const MyWorks = () => {
                 <div className={style.worksContainer}>
                     <Title title={'My projects'}/>
                     <div className={style.links}>
-                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Weather forecast'}
+                         <MyWork title={'Weather forecast'}
                                                                             style={todoStyle}
                                                                             text={'React/Redux, TS, SCSS'}
                                                                             codeLink={'https://github.com/An-life/weather'}
-                                                                            demoLink={'https://warm-profiterole-d2f864.netlify.app/'}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Counter'} text={'React, TS, CSS'}
+                                                                            demoLink={'https://prismatic-heliotrope-a6b4ef.netlify.app/'}/>
+                         <MyWork title={'Counter'} text={'React, TS, CSS'}
                                                                             style={countStyle}
-                                                                            codeLink={'https://github.com/An-life/Counter'}
-                                                                            demoLink={'https://an-life.github.io/Counter/'}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Slider'} text={'HTML, CSS, JS'}
+                                                                            codeLink={'https://github.com/An-life/Counter'}/>
+                         <MyWork title={'Slider'} text={'HTML, CSS, JS'}
                                                                             style={slidStyle}
                                                                             codeLink={'https://github.com/An-life/Slider'}
-                                                                            demoLink={'https://an-life.github.io/Slider/'}/></Tilt>
-                        <Tilt className="Tilt" options={{max: 25}}> <MyWork title={'Network'}
+                                                                            demoLink={'https://an-life.github.io/Slider/'}/>
+                         <MyWork title={'Network'}
                                                                             text={'React/Redux, TS, CSS, RestAPI,Thunk '}
                                                                             style={netStyle}
                                                                             codeLink={'https://github.com/An-life/Network'}
-                                                                            demoLink={'https://an-life.github.io/Network/'}/></Tilt>
+                                                                            demoLink={'https://an-life.github.io/Network/'}/>
                     </div>
                 </div>
             </div>
