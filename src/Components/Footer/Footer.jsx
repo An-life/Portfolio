@@ -6,6 +6,7 @@ import linkedin from './../../Assets/Icons/linkedin.svg';
 import codewars from './../../Assets/Icons/codewars.svg';
 import telegram from './../../Assets/Icons/telegram.svg';
 import Fade from "react-reveal";
+import { linksDataItems } from '../../Constants/constants';
 
 export const Footer = () => {
     return (
@@ -14,17 +15,11 @@ export const Footer = () => {
                 <div className={styleContainer.container}>
                     <div className={style.container}>
                         <div className={style.links}>
-                            <a href={'https://github.com/An-life'} className={style.link}><img src={gitHub} alt={'icon'}
-                                                                                               width={40}/>
+                            {linksDataItems.map(item=> <a href={item.link} className={style.link}>
+                                <img src={item.icon} alt={'icon'} width={40}/>
                             </a>
-                            <a href={'https://www.linkedin.com/in/anastasiya-ablavatskaya-13413b216/'}
-                               className={style.link}><img src={linkedin} alt={'icon'} width={40}/></a>
-                            <a href={'https://www.codewars.com/users/An-life'} className={style.link}>
-                                <img src={codewars} alt={'icon'} width={40}/>
-                            </a>
-                            <a href={'https://t.me/anlife123'} className={style.link}><img src={telegram} alt={'icon'}
-                                                                                           width={40}/>
-                            </a>
+                            )
+                            }
                         </div>
                         <p className={style.text}>©2021</p>
                     </div>
@@ -32,5 +27,4 @@ export const Footer = () => {
             </Fade>
         </div>
     )
-
 }

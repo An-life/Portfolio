@@ -1,14 +1,13 @@
 import React from 'react';
-import style from './Header.module.scss';
+
 import {Nav} from './Nav/Nav';
 import {BurgerNav} from "./BurgerNav/BurgerNav";
 
 export const Header = () => {
     return (
-        <div className={style.header}>
+        <div>
             <Nav/>
             <BurgerNav/>
         </div>
     )
-
 }

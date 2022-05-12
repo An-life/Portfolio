@@ -3,12 +3,13 @@
 
 .footer {
     background-color: $navBgColor;
+
     .container {
-        @include flex(center,flex-start,wrap);
+        @include flex(center, flex-start, wrap);
         flex-direction: column;
         width: 100%;
         .links {
-            @include flex(center,space-between,wrap);
+            @include flex(center, space-between, wrap);
             .link {
                 height: 40px;
                 width: 40px;
@@ -29,12 +30,6 @@
             color: $bgColor;
             opacity: 0.7;
         }
-
     }
 }
-
-
-
-
-
 

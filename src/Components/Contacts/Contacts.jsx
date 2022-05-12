@@ -1,9 +1,11 @@
 import React from 'react';
+
 import style from './Contacts.module.scss';
 import styleContainer from '../../Common/Styles/Container.module.scss';
 import {Title} from '../Title/Title';
+
 import TextField from '@mui/material/TextField';
-import Fade from "react-reveal";
+import Fade from 'react-reveal';
 import emailjs from 'emailjs-com';
 
 export const Contacts = () => {
@@ -18,7 +20,13 @@ export const Contacts = () => {
                 console.log(error.text);
             });
         e.currentTarget.reset()
-    }
+    };
+
+    const textFieldsData=[
+        {id: 'from_name',  name: 'from_name', label: 'Your name'},
+        {id: 'email', name: 'email', label: 'Your email'},
+        {id: 'text', name: 'message', label: 'Your message'}
+    ];
 
     return (
         <div className={style.contacts} id={'contacts'}>
@@ -26,14 +34,11 @@ export const Contacts = () => {
             <Title title={'Contact'}/>
             <Fade bottom>
             <form className={style.form} onSubmit={sendEmail}>
-                <TextField  type='text'  id="from_name"  name='from_name' label="Your name" variant="standard" />
-                <TextField  type='text'  id="email" name='email' label="Your email" variant="standard" />
-                <TextField type='text' id="text" name='message' label="Your message" variant="standard" />
+                {textFieldsData.map(data=><TextField  type='text'  id={data.id}  name={data.name} label={data.label} variant="standard" />)}
                 <button type={'submit'} className={style.button}>Send</button>
             </form>
             </Fade>
             </div>
         </div>
     )
-
 }

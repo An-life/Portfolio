@@ -12,3 +12,4 @@ export const navLinksItems = [
     {title: 'Projects', icon: <FontAwesomeIcon icon={faFolderOpen}/>, link: 'projects'},
     {title: 'Contact', icon: <FontAwesomeIcon icon={faEnvelope}/> , link: 'contacts'}
     ];
+    

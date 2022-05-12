@@ -6,8 +6,6 @@ import {navLinksItems} from "./../constants"
 import Fade from "react-reveal";
 import {Link, animateScroll as scroll} from "react-scroll";
 
-
-
 export const Nav = () => {
     
     return (

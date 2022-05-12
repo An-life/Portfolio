@@ -15,5 +15,4 @@ export const MyWork = (props) => {
             </div>
         </div>
     )
-
 }
