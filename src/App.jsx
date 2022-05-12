@@ -1,4 +1,3 @@
-import './App.module.scss';
 import React from 'react';
 import {Header} from './Components/Header/Header';
 import {MainInformation} from './Components/MainInformation/MainInformation';
@@ -8,7 +7,8 @@ import {Contacts} from './Components/Contacts/Contacts';
 import {MyWorks} from './Components/MyWorks/MyWorks';
 import {AboutMe} from './Components/AboutMe/AboutMe';
 
-function App() {
+function App() { 
+    
     return (
         <div className="App">
             <Header/>

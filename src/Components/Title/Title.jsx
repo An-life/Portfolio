@@ -1,13 +1,15 @@
 import React from 'react';
-import style from './Title.module.scss'
-import Fade from "react-reveal";
+
+import style from './Title.module.scss';
+
+import Fade from 'react-reveal';
 
 export let Title=(props)=>{
+
     return(
         <div className={style.title}>
-
             <Fade top>
-        {props.title}
+              {props.title}
             </Fade>
-    </div>)
+        </div>)
 }

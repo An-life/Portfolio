@@ -15,8 +15,8 @@ import material from './../../Assets/Icons/material_ui.svg';
 import storybook from './../../Assets/Icons/storybook.svg';
 import sass from './../../Assets/Icons/sass.svg';
 import figma from './../../Assets/Icons/figma.svg';
-import Fade from "react-reveal";
-import Tilt from "react-tilt";
+import Fade from 'react-reveal';
+import Tilt from 'react-tilt';
 
 export const Skills = () => {
     const skillItems = [{title:'JS', icon:js},

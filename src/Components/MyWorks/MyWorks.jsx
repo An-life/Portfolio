@@ -7,9 +7,6 @@ import todolist from './../../Assets/img/todolist.jpg';
 import counter from './../../Assets/img/counter.jpg';
 import social from './../../Assets/img/network.jpg';
 import slider from './../../Assets/img/slider.jpg';
-import Fade from "react-reveal";
-import {Skill} from "../Skills/Skill/Skill";
-import Tilt from "react-tilt";
 
 export const MyWorks = () => {
     const todoStyle = {
@@ -24,6 +21,7 @@ export const MyWorks = () => {
     const slidStyle = {
         backgroundImage: `url(${slider})`
     };
+    
     return (
         <div className={style.myWorks} id={'projects'}>
             <div className={styleContainer.container}>
